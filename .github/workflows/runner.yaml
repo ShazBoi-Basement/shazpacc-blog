@@ -16,7 +16,7 @@ jobs:
 
       - name: run the updater script
         run: cd ~/shazpacc/ && hugo
-      
+
       - name: restart nginx server
         run:  sudo systemctl restart nginx
 
