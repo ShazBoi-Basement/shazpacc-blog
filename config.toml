@@ -5,7 +5,7 @@ paginate = 5
 
 [params]
   contentTypeName = "posts"
-  themeColor = "blue"
+  themeColor = "green"
   showMenuItems = 2
   fullWidthTheme = true
   centerTheme = true
