@@ -4,7 +4,7 @@ on:
       - main
 
 jobs:
-  ServerUpdater:
+  UpdateServer:
     runs-on: self-hosted
 
     steps:
