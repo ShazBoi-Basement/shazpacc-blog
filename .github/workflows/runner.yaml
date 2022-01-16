@@ -1,0 +1,18 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  print-username:
+    runs-on: self-hosted
+  
+  steps:
+      - name: make updater script executable
+        run: chmod +x ~/shazpacc/updateServer.sh
+
+      - name: run the updater script
+        run: ~/shazpacc/updateServer.sh
+      
+      - name: restart nginx server
+        run:  sudo systemctl restart nginx
