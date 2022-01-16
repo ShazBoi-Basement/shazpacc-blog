@@ -1,0 +1,18 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  Changing submodules:
+    runs-on: self-hosted
+
+    steps:
+      - name: removing submodules
+        run: rm -rf ~/shazpacc/themes/terminal
+
+      - name: get new themes
+        run: cd ~/shazpacc/ && git clone https://github.com/ShazBoi-Basement/hugo-theme-terminal-portfolio.git themes/terminal
+      
+      - name: restart nginx server
+        run:  sudo systemctl restart nginx
