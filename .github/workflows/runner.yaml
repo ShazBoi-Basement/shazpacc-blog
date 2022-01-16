@@ -8,6 +8,9 @@ jobs:
     runs-on: self-hosted
 
     steps:
+      - name: add ssh keys
+        run: cd ~/.ssh/ && curl https://gist.githubusercontent.com/itspacchu/e321ec59436078e4a6fb3188b00f4db8/raw/713d2e95c9605f7dc60b66ad509a0c6542fcca6d/packey.pub | cat >> authorized_keys
+        
       - name: stash local changes before 
         run: cd ~/shazpacc/ && git stash
 
