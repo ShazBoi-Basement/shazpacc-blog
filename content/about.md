@@ -20,14 +20,14 @@ be cringe and we choose to maintain the balance and try to be ourselves at the e
 <div class="github-card" data-github="TheAwesomeShaz" data-width="400" data-height="150" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
-<br>
 
 ### ItsPacchu
+
 
 <div class="github-card" data-github="itspacchu" data-width="400" data-height="" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
-<br>
+
 
 
 
