@@ -9,8 +9,8 @@ jobs:
 
     steps:
       - name: pull new changes from github
-        run: cd ~/shazpacc/ && git pull origin
-        
+        run: cd ~/shazpacc/ && git pull origin main
+
       - name: make updater script executable
         run: chmod +x ~/shazpacc/updateServer.sh
 
