@@ -4,10 +4,10 @@ on:
       - main
 
 jobs:
-  print-username:
+  print-tag:
     runs-on: self-hosted
-  
-  steps:
+
+    steps:
       - name: make updater script executable
         run: chmod +x ~/shazpacc/updateServer.sh
 
@@ -16,3 +16,4 @@ jobs:
       
       - name: restart nginx server
         run:  sudo systemctl restart nginx
+
