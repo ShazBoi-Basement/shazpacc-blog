@@ -5,15 +5,15 @@ paginate = 5
 
 [params]
   contentTypeName = "posts"
-  themeColor = "orange"
+  themeColor = "purple"
   showMenuItems = 2
   fullWidthTheme = false
-  centerTheme = false
+  centerTheme = true
 
 [languages]
   [languages.en]
     title = "ShazPacc"
-    subtitle = "baadme karenge ye sab"
+    subtitle = "Some Profound Shet ofc ofc"
     keywords = ""
     copyright = "©ShazPacc.inc (an actual company)"
     menuMore = "Show more"
