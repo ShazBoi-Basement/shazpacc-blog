@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on ShazPacc</title>
+    <link>https://blog.shaz.pw/posts/</link>
+    <description>Recent content in Posts on ShazPacc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©ShazPacc.inc (an actual company)</copyright>
+    <lastBuildDate>Sun, 16 Jan 2022 19:00:52 +0000</lastBuildDate><atom:link href="https://blog.shaz.pw/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>N Word</title>
+      <link>https://blog.shaz.pw/posts/n-word/</link>
+      <pubDate>Sun, 16 Jan 2022 19:00:52 +0000</pubDate>
+      
+      <guid>https://blog.shaz.pw/posts/n-word/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+  </channel>
+</rss>
