@@ -24,7 +24,7 @@ jobs:
         run: cd ~/shazpacc/ && git stash
 
       - name: use beta branch 
-        run: cd ~/shazpacc/ && git checkout failsafe
+        run: cd ~/shazpacc/ && git pull origin && git checkout failsafe
 
       - name: pull new changes from github
         run: cd ~/shazpacc/ && git pull origin main
