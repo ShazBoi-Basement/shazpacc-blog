@@ -10,10 +10,10 @@ jobs:
 
     steps:
       - name: stash local changes before 
-        run: cd ~/shazpacc/theme/terminal && git stash
+        run: cd ~/shazpacc/themes/terminal && git stash
 
       - name: pull new changes from github
-        run: cd ~/shazpacc/theme/terminal && git pull origin master
+        run: cd ~/shazpacc/themes/terminal && git pull origin master
 
   UpdateServer:
     runs-on: self-hosted
