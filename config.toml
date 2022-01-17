@@ -6,7 +6,7 @@ paginate = 5
 [params]
   contentTypeName = "posts"
   themeColor = "pink"
-  showMenuItems = 3
+  showMenuItems = 10
   fullWidthTheme = false
   centerTheme = true
   favicon = "favicon.ico"
