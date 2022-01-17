@@ -6,6 +6,16 @@
     <description>Recent content in Tags on ShazPacc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>©ShazPacc.inc (an actual company)</copyright><atom:link href="https://blog.shaz.pw/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>©ShazPacc.inc (an actual company)</copyright>
+    <lastBuildDate>Sun, 16 Jan 2022 19:00:52 +0000</lastBuildDate><atom:link href="https://blog.shaz.pw/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>init</title>
+      <link>https://blog.shaz.pw/tags/init/</link>
+      <pubDate>Sun, 16 Jan 2022 19:00:52 +0000</pubDate>
+      
+      <guid>https://blog.shaz.pw/tags/init/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

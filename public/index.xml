@@ -9,13 +9,31 @@
     <copyright>©ShazPacc.inc (an actual company)</copyright>
     <lastBuildDate>Sun, 16 Jan 2022 19:00:52 +0000</lastBuildDate><atom:link href="https://blog.shaz.pw/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>N Word</title>
-      <link>https://blog.shaz.pw/posts/n-word/</link>
+      <title>Portfolio</title>
+      <link>https://blog.shaz.pw/portfolio/</link>
+      <pubDate>Mon, 17 Jan 2022 13:22:22 +0530</pubDate>
+      
+      <guid>https://blog.shaz.pw/portfolio/</guid>
+      <description>I am the worst programmer in the world. which is actually true. _ ~yours truly, Github Copilot_</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://blog.shaz.pw/about/</link>
+      <pubDate>Mon, 17 Jan 2022 01:59:24 +0530</pubDate>
+      
+      <guid>https://blog.shaz.pw/about/</guid>
+      <description>We are the cult of shaz and we are here to do some programming stuff and random articles and stuff. We means shaz and pacc cuz no one else will use this prolly&amp;hellip;jk jk unless? We are all dying on the inside everyday but we gotta stay ignorant of that ig?
+In a world of normies and degenerates, it is either cringe or be cringe and we choose to maintain the balance and try to be ourselves at the end of the day.</description>
+    </item>
+    
+    <item>
+      <title>First there was Nothing (then there was something ig?)</title>
+      <link>https://blog.shaz.pw/posts/firstthought/</link>
       <pubDate>Sun, 16 Jan 2022 19:00:52 +0000</pubDate>
       
-      <guid>https://blog.shaz.pw/posts/n-word/</guid>
-      <description></description>
-      <content></content>
+      <guid>https://blog.shaz.pw/posts/firstthought/</guid>
+      <description>I see you have stumbled on this lil&#39; community of profound wisdom. </description>
     </item>
     
   </channel>
