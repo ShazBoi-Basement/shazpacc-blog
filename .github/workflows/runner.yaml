@@ -3,7 +3,18 @@ on:
     branches:
       - main
 
+
 jobs:
+  UpdateTheme:
+    runs-on: self-hosted
+
+    steps:
+      - name: stash local changes before 
+        run: cd ~/shazpacc/theme/terminal && git stash
+
+      - name: pull new changes from github
+        run: cd ~/shazpacc/theme/terminal && git pull origin master
+
   UpdateServer:
     runs-on: self-hosted
 
