@@ -1,4 +1,4 @@
-baseurl = "https://blog.shaz.pw/"
+baseurl = "https://shaz.pw/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
@@ -26,6 +26,11 @@ paginate = 5
       logoHomeLink = "/"
 
     [languages.en.menu]
+
+      [[languages.en.menu.main]]
+        identifier = "resume"
+        name = "Resume"
+        url = "/resume"
 
       [[languages.en.menu.main]]
         identifier = "portfolio"
