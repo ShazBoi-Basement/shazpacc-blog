@@ -5,9 +5,9 @@ paginate = 5
 
 [params]
   contentTypeName = "posts"
-  themeColor = "green"
-  showMenuItems = 2
-  fullWidthTheme = true
+  themeColor = "pink"
+  showMenuItems = 3
+  fullWidthTheme = false
   centerTheme = true
   favicon = "favicon.ico"
 
@@ -26,10 +26,17 @@ paginate = 5
       logoHomeLink = "/"
 
     [languages.en.menu]
+
+      [[languages.en.menu.main]]
+        identifier = "portfolio"
+        name = "Flex"
+        url = "/portfolio"
+
       [[languages.en.menu.main]]
         identifier = "post"
         name = "Posts"
         url = "/posts"
+
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
