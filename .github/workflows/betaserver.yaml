@@ -1,0 +1,36 @@
+on:
+  push:
+    branches:
+      - failsafe
+
+
+jobs:
+  UpdateTheme:
+    runs-on: self-hosted
+
+    steps:
+      - name: stash local changes before 
+        run: cd ~/shazpacc/themes/terminal && git stash
+
+      - name: pull new changes from github
+        run: cd ~/shazpacc/themes/terminal && git pull origin master
+
+  UpdateServer:
+    runs-on: self-hosted
+
+    steps:
+
+      - name: stash local changes before 
+        run: cd ~/shazpacc/ && git stash
+
+      - name: use beta branch 
+        run: cd ~/shazpacc/ && git pull origin failsafe && git checkout failsafe
+
+      - name: pull new changes from github
+        run: cd ~/shazpacc/ && git pull origin main
+
+      - name: run hugo server beta
+        run: cd ~/shazpacc/ && hugo server --port 8000 --bind 0.0.0.0
+
+
+
